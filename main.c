@@ -9,7 +9,7 @@ int main() {
 
   float t = 0;
   while (1) {
-    float zb[100 * 40] = {0};
+    float zb[101 * 40] = {0};
     float maxz = 0, c = cos(t), s = sin(t);
     for (float y = -0.5f; y <= 0.5f; y+= 0.01f) {
       // Add beating effect
